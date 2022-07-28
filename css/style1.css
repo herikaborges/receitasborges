@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #A37A7A;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+}
+
+
+#logo { 
+    width: 15vw;
+    height: 15vh;
+}
+
+#icons {
+    width: 10vw;
+    justify-content: space-between;
+}
+
+
+#menu {
+    width: 60vw;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+#icons li a img{
+    width: 5vw;
+    height: 5vh;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+}
+
+li a:hover{
+    color: white;
+}
+
+#fundo::after {
+    content: '';
+    background-image: url(../img/fundo.jpeg);
+    background-size: 100vw;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0vh;
+    top: 0vw;
+    opacity: .6;
+    z-index: -1;
+}
+
+.receita {
+    background-color: #A37A7A;
+    width: 25vw;
+    text-align: center;
+    height: 82vh;
+    border-radius: 2vw;
+    
+}
+
+.receita img.img {
+    width: 25vw;
+    height: 18vw;
+    border-radius: 2vw;
+}
+
+img.icon {
+    width: 3vw;
+}
+
+.receita div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1vw;
+    
+}
+
+#receitas {
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    border-radius: 1vw;
+    padding: 5px;
+    border: none;
+    background-color: #552828;
+    color: white;
+    font-weight: bold;
+}
+
